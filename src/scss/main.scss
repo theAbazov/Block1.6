@@ -1,0 +1,86 @@
+@import "../fonts/stylesheet.css";
+@import "./basic/mixins";
+@import "./basic/vars";
+@import "./basic/vendor";
+@import "./basic/settings";
+@import "./about.scss";
+@import "./brand.scss";
+@import "./header.scss";
+@import "./burger.scss";
+@import "./type.scss";
+@import "./price";
+@import "./footer";
+
+.rotate{
+    transform: rotate(180deg);
+}
+
+.show{
+    height: auto;
+}
+
+.burger-show{
+    left: 0;
+    z-index: 1;
+    transition: .3s;
+}
+
+.stop-scroll{
+    @include stop-scroll
+}
+
+.overlay{
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 0;
+    background: rgba(255, 255, 255, 0.94);
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    display: none;
+}
+.button{
+    display: flex;
+    padding: 4px 8px 4px 12px;
+    border-radius: 16px;
+    background: #FF3E79;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    width: 119px;
+    height: 32px;
+    align-self: end;
+    span{
+        width: 24px;
+        height: 24px;
+        background: url(../images/goside.svg);
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .main-wrapper{
+        max-width: 1900px;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 4.2fr 16fr;
+    }
+  
+    .burger{
+        position: static;
+        box-shadow: none;
+        background: #fff;
+        padding: 30px 30px 16px 22px;
+    }
+    .burger__close{
+        display: none;
+    }
+    .burger__item-before{
+        left: -22px;
+    }
+  
+    .descr__right{
+        background-size: contain;
+    }
+  }
+  

@@ -1,0 +1,106 @@
+@import url(https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css);
+.gradient-1 {
+  background-image: linear-gradient(to right, $background, #fff);
+}
+
+.brand {
+  border-top: 1px solid $b-top;
+
+  &__gradient {
+    padding: 16px 0;
+  }
+
+  &__title {
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.2px;
+    text-transform: uppercase;
+    color: $fc-2;
+    font-weight: 400;
+  }
+
+  &__more {
+    display: none;
+
+    @media screen and (min-width: 768px) {
+      & {
+        display: flex;
+        margin: 8px 0 32px;
+      }
+    }
+  }
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+  position: static;
+
+  &-wrapper {
+    position: static;
+    min-width: 240px;
+    min-height: 72px;
+    margin: 16px 0;
+    box-sizing: border-box;
+    display: flex;
+    @media screen and (min-width: 768px) {
+      & {
+        display: grid !important;
+        grid-template-columns: 1fr 1fr 1fr;
+        column-gap: 24px;
+        row-gap: 16px;
+        height: 170px;
+        overflow: hidden;
+      }
+    }
+    @media screen and (min-width: 1140px) {
+      & {
+        display: grid !important;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        column-gap: 32px;
+        row-gap: 16px;
+      }
+    }
+  }
+
+
+  &-slide {
+    display: flex;
+    justify-content: space-between;
+    padding: 16px;
+    align-items: center;
+    border: 1px solid $line-color;
+    border-radius: 6px;
+    width: 85%;
+    position: static;
+    z-index: 0;
+    @media screen and (min-width: 768px) {
+      & {
+        width: 100%;
+      }
+    }
+  }
+  &-pagination {
+    position: static;
+    &-bullet {
+      width: 12px;
+      height: 12px;
+      background: #dddddd;
+      &-active {
+        background-color: #b5b6bc;
+      }
+    }
+  }
+
+  &-icon {
+    max-width: 110px;
+    max-height: 40px;
+  }
+
+  &-btn {
+    width: 40px;
+    height: 40px;
+    background: url(../images/go.svg);
+    background-size: cover;
+  }
+}

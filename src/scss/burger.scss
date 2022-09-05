@@ -1,0 +1,122 @@
+.icon {
+  width: 40px;
+  height: 40px;
+}
+
+.burger {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 18px 16px;
+  min-height: 100vh;
+  max-width: 320px;
+  color: $fc-1;
+  font-family: "TT Lakes";
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: -0.2px;
+  box-shadow: 16px 0px 52px rgba(14, 24, 80, 0.2);
+  position: absolute;
+  top: 0;
+  left: -100%;
+  background: #fff;
+  transition: .3s;
+  &__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .grow-1 {
+    flex-grow: 1;
+  }
+
+  &__logo {
+    width: 97px;
+    height: 51px;
+  }
+
+  &__close {
+    background-image: url(../images/burger-close.svg);
+    margin-right: 16px;
+  }
+
+  &__search {
+    background-image: url(../images/search.svg);
+  }
+
+  &__menu {
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+    margin-top: 22px;
+  }
+  &__item {
+    display: flex;
+    align-items: center;
+    position: relative;
+    &-before {
+      display: inline-block;
+      width: 4px;
+      height: 32px;
+      border-radius: 0 4px 4px 0;
+      position: absolute;
+      left: -16px;
+    }
+
+    & a:hover ~ &-before {
+      background: #41f6d7;
+      transition: 1s;
+    }
+    & a:focus ~ &-before {
+      transition: 1s;
+      background: #41f6d7;
+    }
+
+    & a:hover,
+    & a:focus {
+      color: $fc-2;
+      outline: none;
+    }
+
+    &__bottom {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+
+  &__icons {
+    display: flex;
+    column-gap: 16px;
+
+    &-call {
+      background-image: url(../images/call.svg);
+    }
+    &-message {
+      background-image: url(../images/chat.svg);
+    }
+    &-profile {
+      background-image: url(../images/profile.svg);
+    }
+  }
+
+  &__number {
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: -0.6px;
+    font-weight: 600;
+    margin-top: 12px;
+  }
+
+  &__mail {
+    margin-top: 16px;
+  }
+
+  &__langs {
+    margin: 8px 0 14px;
+  }
+
+  .ru {
+    color: $fc-2;
+  }
+}
