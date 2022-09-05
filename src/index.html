@@ -11,25 +11,26 @@
 <body>
   <div class="main-wrapper">
 
-  <header class="header">
-    <div class="container">
-      <div role="list" class="row header__row">
-        <div class="header__left">
-          <button id="burger-open" aria-label="Меню бургер" title="Открывает меню" class="header__burger header__item"></button>
-          <div class="header__line-left header__line"></div>
-          <div class="header__logo"></div>
-        </div>
-        <div class="header__right">
-          <button aria-label="Телефон" title="Звонить  нам" class="header__call header__item"></button>
-          <button aria-label="Сообщение" title="Отправляет сообщение нам" class="header__msg header__item"></button>
-          <button aria-label="Профиль" title="Открывает профиль" class="header__profile header__item"></button>
-          <div class="header__line-right header__line"></div>
-          <button aria-label="Ремонт" title="Отслежка заказа" class="header__option header__item"></button>
-          <button aria-label="Поиск" title="Для поиска по сайту" class="header__search header__item"></button>
+    <header class="header">
+      <div class="container">
+        <div role="list" class="row header__row">
+          <div class="header__left">
+            <button id="burger-open" aria-label="Меню бургер" title="Открывает меню"
+              class="header__burger header__item"></button>
+            <div class="header__line-left header__line"></div>
+            <div class="header__logo"></div>
+          </div>
+          <div class="header__right">
+            <button id="call-open" aria-label="Телефон" title="Звонить  нам" class="header__call header__item"></button>
+            <button id="feedback-open" aria-label="Сообщение" title="Отправляет сообщение нам" class="header__msg header__item"></button>
+            <button aria-label="Профиль" title="Открывает профиль" class="header__profile header__item"></button>
+            <div class="header__line-right header__line"></div>
+            <button aria-label="Ремонт" title="Отслежка заказа" class="header__option header__item"></button>
+            <button aria-label="Поиск" title="Для поиска по сайту" class="header__search header__item"></button>
+          </div>
         </div>
       </div>
-    </div>
-  </header>
+    </header>
     <section id="burger" class="burger">
       <div class="burger__top">
         <ul class="burger__header">
@@ -72,11 +73,11 @@
       </div>
       <div class="burger__bottom">
         <div class="burger__icons">
-          <button aria-label="" title="Позвонить" class="burger__icons-call icon"></button>
-          <button aria-label="" title="Написать" class="burger__icons-message icon"></button>
+          <button id="call-open" aria-label="" title="Позвонить" class="burger__icons-call icon"></button>
+          <button id="feedback-open" aria-label="" title="Написать" class="burger__icons-message icon"></button>
           <button aria-label="" title="Профиль" class="burger__icons-profile icon"></button>
         </div>
-        <a href="mailto:mail@cps.com" class="burger__mail">mail@cps.com</a>
+        <a href="mailto:mail@cps.com" class="burger__mail">mail@cps.com</a><br>
         <a href="tel:8 800 890 8900" class="burger__number">8 800 890 8900</a>
         <div class="burger__langs">
           <button aria-label="Переключить язык" class="menu__lang ru">RU</button>
@@ -145,7 +146,7 @@
                     техники Dell. Только у нас вы можете отремонтировать свой
                     ноутбук Dell с оaициальной гарантией производителя. <br />
                     <br />
-  
+
                     Мы успешно работаем с 1992 года и заслужили репутацию
                     надежного партнера, что подтверждает большое количество
                     постоянных клиентов. Мы гордимся тем, что к нам обращаются по
@@ -157,7 +158,7 @@
                     постоянных клиентов. Мы гордимся тем, что к нам обращаются по
                     рекомендациям и, в свою очередь, советуют нас родным и
                     близким.
-  
+
                   </p>
                   <button id="descr-more" class="descr__more more">
                     <div id="more-img-1" class="more__img"></div>
@@ -169,7 +170,7 @@
             </div>
           </section>
         </section>
-  
+
         <section class="brand">
           <div class="brand__gradient gradient-1">
             <h2 class="container brand__title">Ремонт техники различных брендов</h2>
@@ -245,7 +246,7 @@
               <span id="more-text-2">Показать все</span>
             </button>
           </div>
-  
+
         </section>
         <section class="type">
           <div class="type__gradient gradient-1">
@@ -298,7 +299,7 @@
               <span id="more-text-3">Показать все</span>
             </button>
           </div>
-  
+
         </section>
         <section class="price">
           <div class="price__gradient gradient-1">
@@ -415,13 +416,14 @@
               </ul>
               <div class="swiper-pagination"></div>
             </div>
-             <div class="price__text">Все цены указаны с учетом НДС. Стоимость ремонта указана на единичную услугу. Для получения коммерческого предложения на постоянное обслуживание, оставьте заявку. <br><br></div>
-             <a href="#" class="price__link">Получить коммерческое предложение <span class="price__arrow-right"></span></a>
+            <div class="price__text">Все цены указаны с учетом НДС. Стоимость ремонта указана на единичную услугу. Для
+              получения коммерческого предложения на постоянное обслуживание, оставьте заявку. <br><br></div>
+            <a href="#" class="price__link">Получить коммерческое предложение <span
+                class="price__arrow-right"></span></a>
           </div>
         </section>
-        
+
       </main>
-      <div id="overlay" class="overlay"></div>
       <footer class="footer">
         <div class="container">
           <div class="footer__row">
@@ -434,7 +436,43 @@
       </footer>
     </div>
   </div>
-  
+  <div id="overlay" class="overlay"></div>
+  <div id="feedback" class="feedback">
+    <button id="feedback-close" class="feedback__close"></button>
+    <div class="feedback__title"><span></span>
+      <h2>Обратная связь</h2>
+    </div>
+    <form class="feedback__form">
+      <input class="feedback__input" placeholder="Имя" type="text">
+      <input class="feedback__input" placeholder="Телефон" type="tel">
+      <input class="feedback__input" placeholder="Электронная почта" type="email">
+      <input class="feedback__input" placeholder="Сообщение" type="text" name="" id="">
+      <p class="feedback__remind remind">
+        Нажимая “отправить”, вы даете согласие на <a href="#">обработку персональных данных</a> и соглашаетесь с нашей <a href="#">политикой конфиденциальности</a>
+      </p>
+      <button class="button">
+        Отправить
+        <span></span>
+      </button>
+    </form>
+  </div>
+  <div id="call" class="call">
+    <button id="call-close" class="call__close"></button>
+    <div class="call__title"><span></span>
+      <h2>Заказать звонок</h2>
+    </div>
+    <form class="call__form">
+      <input class="call__input" placeholder="Телефон" type="tel">
+      <p class="call__remind remind">
+        Нажимая “отправить”, вы даете согласие на <a href="#">обработку персональных данных</a> и соглашаетесь с нашей <a href="#">политикой конфиденциальности</a>
+      </p>
+      <button class="button">
+        Отправить
+        <span></span>
+      </button>
+    </form>
+  </div>
+
   <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
 </body>
 

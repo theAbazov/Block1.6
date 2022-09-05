@@ -4,3 +4,5 @@ import "../index.html";
 import "./swiper";
 import "./more"
 import "./burger"
+import "./feedback"
+import "./call"

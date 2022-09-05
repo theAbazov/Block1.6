@@ -10,6 +10,8 @@
 @import "./type.scss";
 @import "./price";
 @import "./footer";
+@import "./feedback";
+@import "./call";
 
 .rotate{
     transform: rotate(180deg);
@@ -20,9 +22,19 @@
 }
 
 .burger-show{
+    display: flex;
     left: 0;
     z-index: 1;
     transition: .3s;
+}
+
+.feedback-show{
+    display: block;
+    right: 0;
+}
+.call-show{
+    display: block;
+    right: 0;
 }
 
 .stop-scroll{

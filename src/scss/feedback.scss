@@ -1,0 +1,67 @@
+.feedback {
+  display: none;
+  padding: 24px 16px;
+  height: 100vh;
+  position: absolute;
+  right: -100%;
+  top: 0;
+  width: 320px;
+  background: #ffffff;
+  box-shadow: -2px 0px 4px rgba(69, 79, 126, 0.02),
+    16px 0px 52px rgba(14, 24, 80, 0.2);
+  &__close {
+    width: 40px;
+    height: 40px;
+    background: url(../images/burger-close.svg);
+    margin-bottom: 32px;
+    @media screen and (min-width:768px) {
+      position: absolute;
+      left: -72px;
+      max-width: 440px;
+    }
+  }
+  &__title {
+    display: flex;
+    position: relative;
+    height: 40px;
+    align-items: center;
+    margin-bottom: 24px;
+    h2{
+      font-size: 24px;
+    line-height: 32px;
+    letter-spacing: -0.6px;
+    color: $fc-1;
+    }
+    span {
+      display: inline-block;
+      width: 4px;
+      height: 100%;
+      border-radius: 0 4px 4px 0;
+      background: #41f6d7;
+      position: absolute;
+      left: -16px;
+    }
+  }
+  &__form {
+    display: flex;
+    flex-direction: column;
+    row-gap: 16px;
+  }
+  &__input {
+    width: 100%;
+    height: 48px;
+    border: 1px solid #eaeaea;
+    border-radius: 8px;
+    outline: none;
+    padding: 12px 16px;
+  }
+  &__remind {
+  }
+}
+
+.remind {
+  color: $fc-2;
+  a {
+    color: #ff3e79;
+  }
+}
