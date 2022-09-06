@@ -977,7 +977,7 @@ button:focus-visible {
 .more__img {
   width: 24px;
   height: 24px;
-  background: url(../img/expand.c644bd50cec7bfc61ec6.svg); }
+  background: url(../img/expand.37ba3156e021a970a1b9.svg); }
 
 /* ============================ */
 .about {
@@ -997,11 +997,11 @@ button:focus-visible {
     .about__option-img {
       width: 40px;
       height: 40px;
-      background: url(../img/repair.0e897100802b427aae01.svg); }
+      background: url(../img/repair.2f17fb686448b54d2818.svg); }
     .about__search-img {
       width: 40px;
       height: 40px;
-      background: url(../img/checkstatus.76c6ccf4168cea7c4e3e.svg); }
+      background: url(../img/checkstatus.58550d2ce0686acd6a5d.svg); }
     .about__title-box {
       margin-top: 42px; } }
   .about__title-box {
@@ -1214,7 +1214,7 @@ button:focus-visible {
   .swiper-btn {
     width: 40px;
     height: 40px;
-    background: url(../img/go.2d1ebf655d6df4f34b06.svg);
+    background: url(../img/go.6875ce0ec873fb87b08f.svg);
     background-size: cover; }
 
 .header {
@@ -1234,7 +1234,7 @@ button:focus-visible {
     height: 32px;
     background: #EAEAEA; }
   .header__logo {
-    background-image: url(../img/Group.15afe5e5228077483b9f.svg);
+    background-image: url(../img/Group.42d237d5495f5a745f89.svg);
     background-size: cover;
     width: 96px;
     height: 50px; }
@@ -1242,7 +1242,7 @@ button:focus-visible {
     width: 40px;
     height: 40px; }
   .header__burger {
-    background-image: url(../img/burger.c25d0fa6ccfd708899f7.svg); }
+    background-image: url(../img/burger.280270d4ebd2aeff2fc2.svg); }
   .header__line-left {
     display: none; }
     @media screen and (min-width: 768px) and (max-width: 1440px) {
@@ -1250,40 +1250,40 @@ button:focus-visible {
         display: block; } }
   .header__call {
     display: none;
-    background-image: url(../img/call.7186507fd3a99447fcd8.svg); }
+    background-image: url(../img/call.a28f84d657fbea487336.svg); }
     @media screen and (min-width: 768px) and (max-width: 1440px) {
       .header__call {
         display: block; } }
   .header__msg {
     display: none;
-    background-image: url(../img/chat.d05352abb256f8e4ab14.svg); }
+    background-image: url(../img/chat.e4ea21215d2fdc820eb9.svg); }
     @media screen and (min-width: 768px) and (max-width: 1440px) {
       .header__msg {
         display: block; } }
   .header__profile {
     display: none;
-    background-image: url(../img/profile.74857a143041264b597f.svg); }
+    background-image: url(../img/profile.ae85981350f2d871efc0.svg); }
     @media screen and (min-width: 768px) and (max-width: 1440px) {
       .header__profile {
         display: block; } }
   .header__line-right {
     margin-right: 4px; }
   .header__option {
-    background: url(../img/repair.0e897100802b427aae01.svg); }
+    background: url(../img/repair.2f17fb686448b54d2818.svg); }
   .header__search {
-    background: url(../img/checkstatus.76c6ccf4168cea7c4e3e.svg); }
+    background: url(../img/checkstatus.58550d2ce0686acd6a5d.svg); }
 
 .icon {
   width: 40px;
   height: 40px; }
 
 .burger {
-  display: flex;
+  display: none;
   flex-direction: column;
   justify-content: space-between;
   padding: 18px 16px;
   min-height: 100vh;
-  max-width: 320px;
+  width: 320px;
   color: #1B1C21;
   font-family: "TT Lakes";
   font-size: 16px;
@@ -1305,10 +1305,10 @@ button:focus-visible {
     width: 97px;
     height: 51px; }
   .burger__close {
-    background-image: url(../img/burger-close.bac58fb56cb778869883.svg);
+    background-image: url(../img/burger-close.66cc31aab0ddfd1c3197.svg);
     margin-right: 16px; }
   .burger__search {
-    background-image: url(../img/search.b06f375524a90db91a99.svg); }
+    background-image: url(../img/search.83f3e279e0f58942443b.svg); }
   .burger__menu {
     display: flex;
     flex-direction: column;
@@ -1342,11 +1342,11 @@ button:focus-visible {
     display: flex;
     column-gap: 16px; }
     .burger__icons-call {
-      background-image: url(../img/call.7186507fd3a99447fcd8.svg); }
+      background-image: url(../img/call.a28f84d657fbea487336.svg); }
     .burger__icons-message {
-      background-image: url(../img/chat.d05352abb256f8e4ab14.svg); }
+      background-image: url(../img/chat.e4ea21215d2fdc820eb9.svg); }
     .burger__icons-profile {
-      background-image: url(../img/profile.74857a143041264b597f.svg); }
+      background-image: url(../img/profile.ae85981350f2d871efc0.svg); }
   .burger__number {
     font-size: 24px;
     line-height: 32px;
@@ -1356,7 +1356,7 @@ button:focus-visible {
   .burger__mail {
     margin-top: 16px; }
   .burger__langs {
-    margin: 8px 0 14px; }
+    margin: 8px 0 5px; }
   .burger .ru {
     color: #7E7E82; }
 
@@ -1438,7 +1438,7 @@ button:focus-visible {
   .swiper-btn {
     width: 40px;
     height: 40px;
-    background: url(../img/go.2d1ebf655d6df4f34b06.svg);
+    background: url(../img/go.6875ce0ec873fb87b08f.svg);
     background-size: cover; }
 
 .price {
@@ -1528,7 +1528,7 @@ button:focus-visible {
     display: inline-block;
     width: 7px;
     height: 11px;
-    background: url(../img/arrow-right.6af29a20740f551b843b.svg);
+    background: url(../img/arrow-right.53d59c13af7f137c3e75.svg);
     background-size: cover;
     margin-left: 3px; }
   .price .mobile {
@@ -1558,6 +1558,118 @@ button:focus-visible {
         margin: 32px 0 41px;
         text-align: start; } }
 
+.feedback {
+  display: none;
+  padding: 24px 16px;
+  height: 100vh;
+  position: absolute;
+  right: -100%;
+  top: 0;
+  width: 320px;
+  background: #ffffff;
+  box-shadow: -2px 0px 4px rgba(69, 79, 126, 0.02), 16px 0px 52px rgba(14, 24, 80, 0.2); }
+  .feedback__close {
+    width: 40px;
+    height: 40px;
+    background: url(../img/burger-close.66cc31aab0ddfd1c3197.svg);
+    margin-bottom: 32px; }
+    @media screen and (min-width: 768px) {
+      .feedback__close {
+        position: absolute;
+        left: -72px;
+        max-width: 440px; } }
+  .feedback__title {
+    display: flex;
+    position: relative;
+    height: 40px;
+    align-items: center;
+    margin-bottom: 24px; }
+    .feedback__title h2 {
+      font-size: 24px;
+      line-height: 32px;
+      letter-spacing: -0.6px;
+      color: #1B1C21; }
+    .feedback__title span {
+      display: inline-block;
+      width: 4px;
+      height: 100%;
+      border-radius: 0 4px 4px 0;
+      background: #41f6d7;
+      position: absolute;
+      left: -16px; }
+  .feedback__form {
+    display: flex;
+    flex-direction: column;
+    row-gap: 16px; }
+  .feedback__input {
+    width: 100%;
+    height: 48px;
+    border: 1px solid #eaeaea;
+    border-radius: 8px;
+    outline: none;
+    padding: 12px 16px; }
+
+.remind {
+  color: #7E7E82; }
+  .remind a {
+    color: #ff3e79; }
+
+.call {
+  display: none;
+  padding: 24px 16px;
+  height: 100vh;
+  position: absolute;
+  right: -100%;
+  top: 0;
+  width: 320px;
+  background: #ffffff;
+  box-shadow: -2px 0px 4px rgba(69, 79, 126, 0.02), 16px 0px 52px rgba(14, 24, 80, 0.2); }
+  .call__close {
+    width: 40px;
+    height: 40px;
+    background: url(../img/burger-close.66cc31aab0ddfd1c3197.svg);
+    margin-bottom: 32px; }
+    @media screen and (min-width: 768px) {
+      .call__close {
+        position: absolute;
+        left: -72px;
+        max-width: 440px; } }
+  .call__title {
+    display: flex;
+    position: relative;
+    height: 40px;
+    align-items: center;
+    margin-bottom: 24px; }
+    .call__title h2 {
+      font-size: 24px;
+      line-height: 32px;
+      letter-spacing: -0.6px;
+      color: #1B1C21; }
+    .call__title span {
+      display: inline-block;
+      width: 4px;
+      height: 100%;
+      border-radius: 0 4px 4px 0;
+      background: #41f6d7;
+      position: absolute;
+      left: -16px; }
+  .call__form {
+    display: flex;
+    flex-direction: column;
+    row-gap: 16px; }
+  .call__input {
+    width: 100%;
+    height: 48px;
+    border: 1px solid #eaeaea;
+    border-radius: 8px;
+    outline: none;
+    padding: 12px 16px; }
+
+.remind {
+  color: #7E7E82; }
+  .remind a {
+    color: #ff3e79; }
+
 .rotate {
   transform: rotate(180deg); }
 
@@ -1565,9 +1677,18 @@ button:focus-visible {
   height: auto; }
 
 .burger-show {
+  display: flex;
   left: 0;
   z-index: 1;
   transition: .3s; }
+
+.feedback-show {
+  display: block;
+  right: 0; }
+
+.call-show {
+  display: block;
+  right: 0; }
 
 .stop-scroll {
   position: fixed;
@@ -1602,7 +1723,7 @@ button:focus-visible {
   .button span {
     width: 24px;
     height: 24px;
-    background: url(../img/goside.8705792090b6aa156951.svg); }
+    background: url(../img/goside.8d59e7fd1395cd5bc22b.svg); }
 
 @media screen and (min-width: 1440px) {
   .main-wrapper {
